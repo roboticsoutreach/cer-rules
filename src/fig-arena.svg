@@ -371,6 +371,7 @@
        y="3.4"
        x="1.2">Marker (with ID)</text>
 
+    <rect width="0.4" height="1" x="4.55" y="0.5" fill="#02A6F2" />
     <line class="scoring-line"
             x1="4.75"
             y1="0.5"
