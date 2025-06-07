@@ -173,16 +173,16 @@
             y2="2.715" />
 
       <line class="scoring-line"
-            x1="1.44"
-            y1="1.44"
+            x1="1.66"
+            y1="1.66"
             x2="1.2"
             y2="1.2" />
 
       <line class="scoring-line"
             x1="2.7"
             y1="2.7"
-            x2="1.63"
-            y2="1.63" />
+            x2="1.88"
+            y2="1.88" />
 
       <line class="scoring-line"
             x1="3.92"
@@ -204,8 +204,8 @@
             class="start-zone"/>
 
       <!-- Line following guide -->
-      <polyline points="3.72,0.74 2.33,0.74 0.74,2.33 0.74,3.92 1.5,4.66 1.68,4.66" class="line-follow-guide-back" />
-      <polyline points="3.72,0.74 2.33,0.74 0.74,2.33 0.74,3.92 1.5,4.66 1.68,4.66" class="line-follow-guide" />
+      <polyline points="3.72,0.74 2.33,0.74 1.96,1.11 1.96,1.59 1.59,1.96 1.11,1.96 0.74,2.33 0.74,3.92 1.5,4.66 1.68,4.66" class="line-follow-guide-back" />
+      <polyline points="3.72,0.74 2.33,0.74 1.96,1.11 1.96,1.59 1.59,1.96 1.11,1.96 0.74,2.33 0.74,3.92 1.5,4.66 1.68,4.66" class="line-follow-guide" />
 
       <g transform="translate(3.21 0.74)">
         <use xlink:href="#robot"/>
@@ -213,7 +213,7 @@
 
       <!-- cans -->
       <use xlink:href="#can" transform="translate(4.18 0.74)" class="can"/>
-      <use xlink:href="#can" transform="translate(0.74 1.78)" class="can"/>
+      <use xlink:href="#can" transform="translate(1.22 1.68)" class="can"/>
       <use xlink:href="#can" transform="translate(2.24 2.1)" class="can"/>
       <use xlink:href="#can" transform="translate(0.37 2.81)" class="can"/>
       <use xlink:href="#can" transform="translate(1.11 2.62)" class="can"/>
@@ -300,11 +300,11 @@
     <line x1="4.18" y1="-0.06" x2="5.4" y2="-0.06" class="dimension" />
     <text class="dimension" y="-0.13" x="4.79">1220±100mm</text>
 
-    <line x1="4.66" y1="3.62" x2="5.4" y2="3.62" class="dimension" />
-    <text class="dimension" y="3.72" x="5.05">1220±100mm</text>
+    <line x1="4.18" y1="3.72" x2="5.4" y2="3.72" class="dimension" />
+    <text class="dimension" y="3.80" x="4.79">1220±100mm</text>
 
-    <line x1="4.66" y1="4.18" x2="4.66" y2="3.62" class="dimension" />
-    <text class="dimension" y="3.9" x="4.35">480±100mm</text>
+    <line x1="4.18" y1="4.18" x2="4.18" y2="3.72" class="dimension" />
+    <text class="dimension" y="4" x="4.5">380±100mm</text>
 
     <line x1="2.24" y1="2.11" x2="2.7" y2="2.11" class="dimension" />
     <text class="dimension" y="1.96" x="2.38">460±20mm</text>
