@@ -1,17 +1,14 @@
-Smallpeice Rules
-================
+# Computing, Electronics and Robotics Rules
 
 `master` is the latest version.
 
 See `releases` or `tags` for individual years.
 
-Requirements
-------------
+## Requirements
 
 - `npm`
 
-How to build
-------------
+## How to build
 
 - Clone.
 - `npm ci`
