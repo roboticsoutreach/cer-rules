@@ -184,6 +184,18 @@
             x2="1.63"
             y2="1.63" />
 
+      <line class="scoring-line"
+            x1="3.92"
+            y1="1.48"
+            x2="4.2"
+            y2="1.2" />
+
+      <line class="scoring-line"
+            x1="4.37"
+            y1="1.02"
+            x2="4.79"
+            y2="0.61" />
+
       <!-- Start zone -->
       <rect width="1"
             height="1"
@@ -200,7 +212,7 @@
       </g>
 
       <!-- cans -->
-      <use xlink:href="#can" transform="translate(4.18 1.22)" class="can"/>
+      <use xlink:href="#can" transform="translate(4.18 0.74)" class="can"/>
       <use xlink:href="#can" transform="translate(0.74 1.78)" class="can"/>
       <use xlink:href="#can" transform="translate(2.24 2.1)" class="can"/>
       <use xlink:href="#can" transform="translate(0.37 2.81)" class="can"/>
