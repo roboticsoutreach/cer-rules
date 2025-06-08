@@ -365,38 +365,44 @@
        x="1.2">Can</text>
 
     <use xlink:href="#marker" transform="translate(0.5 3.4) scale(2) rotate(90)" class="marker"/>
-    <text class="marker-label" y="3.4" x="0.7">2</text>
+    <text class="marker-label" y="3.4" x="0.65">2</text>
     <text
        class="legend-label"
        y="3.4"
        x="1.2">Marker (with ID)</text>
 
-    <rect width="0.4" height="1" x="4.55" y="0.5" fill="#02A6F2" />
+    <rect width="0.4" height="0.9" x="4.55" y="0.5" fill="#02A6F2" />
     <line class="scoring-line"
             x1="4.75"
             y1="0.5"
             x2="4.75"
-            y2="1.5" />
+            y2="1.4" />
     <text
        class="legend-label"
        y="1"
        x="5.2">Scoring Line</text>
 
     <rect width="0.5"
-            height="1"
+            height="0.9"
             x="4.5"
-            y="1.7"
+            y="1.8"
             class="inner-wall"/>
     <text
        class="legend-label"
        y="2.2"
        x="5.2">Inner wall</text>
 
+    <rect width="0.4" height="0.7" x="4.55" y="3.1" fill="#02A6F2" />
+    <line class="line-follow-guide-back"
+            x1="4.75"
+            y1="3.1"
+            x2="4.75"
+            y2="3.8" />
     <line class="line-follow-guide"
             x1="4.75"
             y1="3.1"
             x2="4.75"
-            y2="3.7" />
+            y2="3.8" />
     <text
        class="legend-label"
        y="3.4"
