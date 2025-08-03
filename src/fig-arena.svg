@@ -326,10 +326,12 @@
     <line x1="0" y1="1.96" x2="0.25" y2="1.96" class="dimension-guide" />
     <text class="dimension" y="2.4" x="0.55">740±10mm</text>
 
-    <line x1="4.79" y1="0.61" x2="5.4" y2="0" class="dimension-guide" />
-    <text class="dimension" y="1.31" x="4.9">1220±100mm</text>
+    <line x1="4.18" y1="0.85" x2="4.18" y2="0.75" class="dimension-guide" />
+    <line x1="4.18" y1="0.85" x2="5.4" y2="0.85" class="dimension" />
+    <text class="dimension" y="0.95" x="4.75">1220±100mm</text>
 
-    <line x1="4.18" y1="1.22" x2="5.4" y2="1.22" class="dimension" />
+    <line x1="4.18" y1="0.75" x2="4.18" y2="0" class="dimension" />
+    <text class="dimension" y="0.4" x="4.05" transform="rotate(-90, 4.05 0.4)">750±100mm</text>
 
     <line x1="5.03" y1="2.77" x2="5.4" y2="2.77" class="dimension" />
     <line x1="5.03" y1="2.77" x2="5.03" y2="2.68" class="dimension-guide" />
