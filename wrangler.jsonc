@@ -1,0 +1,9 @@
+{
+    "name": "cer-rules",
+    "compatibility_date": "2025-08-03",
+    "assets": {
+        "directory": "./dist"
+    },
+    "workers_dev": true,
+    "account_id": "50b11a5357bf235d6bd602fa8d9450b6"
+}
