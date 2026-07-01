@@ -162,37 +162,37 @@
             y2="1.48" />
 
       <line class="scoring-line"
-            x1="0.88"
+            x1="0.65"
             y1="2.715"
             x2="1.48"
             y2="2.715" />
       <line class="scoring-line"
             x1="0"
             y1="2.715"
-            x2="0.59"
+            x2="0.35"
             y2="2.715" />
 
       <line class="scoring-line"
-            x1="1.66"
-            y1="1.66"
-            x2="1.2"
-            y2="1.2" />
+            x1="1.67"
+            y1="1.67"
+            x2="1.22"
+            y2="1.22" />
 
       <line class="scoring-line"
             x1="2.7"
             y1="2.7"
-            x2="1.88"
-            y2="1.88" />
+            x2="1.87"
+            y2="1.87" />
 
       <line class="scoring-line"
             x1="3.92"
             y1="1.48"
-            x2="4.2"
-            y2="1.2" />
+            x2="4.44"
+            y2="0.96" />
 
       <line class="scoring-line"
-            x1="4.37"
-            y1="1.02"
+            x1="4.64"
+            y1="0.76"
             x2="4.79"
             y2="0.61" />
 
@@ -200,23 +200,22 @@
       <rect width="1"
             height="1"
             x="2.7"
-            y="0.24"
+            y="0"
             class="start-zone"/>
 
       <!-- Line following guide -->
-      <polyline points="3.72,0.74 2.33,0.74 1.96,1.11 1.96,1.59 1.59,1.96 1.11,1.96 0.74,2.33 0.74,3.92 1.5,4.66 1.68,4.66" class="line-follow-guide-back" />
-      <polyline points="3.72,0.74 2.33,0.74 1.96,1.11 1.96,1.59 1.59,1.96 1.11,1.96 0.74,2.33 0.74,3.92 1.5,4.66 1.68,4.66" class="line-follow-guide" />
-
-      <g transform="translate(3.21 0.74)">
+      <polyline points="2.7,0.5 2.45,0.5 2.09,0.86 2.09,1.48 1.49,2.08 0.7,2.08 0.5,2.33 0.5,4.18 1.22,4.9 1.69,4.9" class="line-follow-guide-back" />
+      <polyline points="2.7,0.5 2.45,0.5 2.09,0.86 2.09,1.48 1.49,2.08 0.7,2.08 0.5,2.33 0.5,4.18 1.22,4.9 1.69,4.9" class="line-follow-guide" />
+      <g transform="translate(3.21 0.5)">
         <use xlink:href="#robot"/>
       </g>
 
       <!-- cans -->
-      <use xlink:href="#can" transform="translate(4.18 0.74)" class="can"/>
-      <use xlink:href="#can" transform="translate(1.22 1.68)" class="can"/>
-      <use xlink:href="#can" transform="translate(2.24 2.1)" class="can"/>
-      <use xlink:href="#can" transform="translate(0.37 2.81)" class="can"/>
-      <use xlink:href="#can" transform="translate(1.11 2.62)" class="can"/>
+      <use xlink:href="#can" transform="translate(4.18 0.75)" class="can"/>
+      <use xlink:href="#can" transform="translate(1.22 1.62)" class="can"/>
+      <use xlink:href="#can" transform="translate(2.3 2.3)" class="can"/>
+      <use xlink:href="#can" transform="translate(1.22 3.44)" class="can"/>
+      <use xlink:href="#can" transform="translate(0.5 2.71)" class="can"/>
 
       <!-- Inner wall -->
       <rect width="1.22"
