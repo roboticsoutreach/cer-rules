@@ -294,27 +294,27 @@
     <text class="dimension" transform="rotate(-90, 1.6 0.3)" y="0.3" x="1.6">610±10mm</text>
 
     <line x1="0" y1="3.9" x2="1.48" y2="3.9" class="dimension" />
-    <text class="dimension" y="3.82" x="0.39">1480±100mm</text>
+    <text class="dimension" y="3.84" x="0.9">1480±100mm</text>
 
     <line x1="4.18" y1="-0.06" x2="5.4" y2="-0.06" class="dimension" />
     <text class="dimension" y="-0.13" x="4.79">1220±100mm</text>
 
-    <line x1="4.18" y1="3.72" x2="5.4" y2="3.72" class="dimension" />
-    <text class="dimension" y="3.80" x="4.79">1220±100mm</text>
+    <line x1="4.78" y1="3.75" x2="5.4" y2="3.75" class="dimension" />
+    <text class="dimension" y="3.65" x="5.08">610±100mm</text>
 
-    <line x1="4.18" y1="4.18" x2="4.18" y2="3.72" class="dimension" />
-    <text class="dimension" y="4" x="4.5">380±100mm</text>
+    <line x1="4.79" y1="4.18" x2="4.79" y2="3.75" class="dimension" />
+    <text class="dimension" y="4" x="4.45">430±100mm</text>
 
-    <line x1="2.24" y1="2.11" x2="2.7" y2="2.11" class="dimension" />
-    <text class="dimension" y="1.96" x="2.38">460±20mm</text>
+    <line x1="2.4" y1="1.48" x2="2.7" y2="1.48" class="dimension" />
+    <text class="dimension" y="1.37" x="2.5">300±20mm</text>
 
-    <line x1="2.24" y1="2.11" x2="2.24" y2="2.7" class="dimension" />
-    <text class="dimension" y="2.35" x="1.96">600±20mm</text>
+    <line x1="2.4" y1="1.48" x2="2.4" y2="2.7" class="dimension" />
+    <text class="dimension" y="2" x="2.1">600±20mm</text>
 
-    <line x1="3.31" y1="3" x2="3.92" y2="3" class="dimension" />
-    <line x1="3.31" y1="3" x2="3.31" y2="2.7" class="dimension-guide" />
-    <line x1="3.92" y1="3" x2="3.92" y2="2.7" class="dimension-guide" />
-    <text class="dimension" y="3.15" x="3.7">610±10mm</text>
+    <line x1="1.48" y1="2.4" x2="2.09" y2="2.4" class="dimension" />
+    <line x1="1.48" y1="2.4" x2="1.48" y2="2.7" class="dimension-guide" />
+    <line x1="2.09" y1="2.4" x2="2.09" y2="2.7" class="dimension-guide" />
+    <text class="dimension" y="2.32" x="1.78">610±10mm</text>
 
     <line x1="0.4" y1="1.885" x2="0.4" y2="2.035" class="dimension" />
     <line x1="0" y1="1.885" x2="0.4" y2="1.885" class="dimension-guide" />
@@ -332,13 +332,21 @@
     <line x1="4.18" y1="0.75" x2="4.18" y2="0" class="dimension" />
     <text class="dimension" y="0.4" x="4.05" transform="rotate(-90, 4.05 0.4)">750±100mm</text>
 
-    <line x1="5.03" y1="2.77" x2="5.4" y2="2.77" class="dimension" />
-    <line x1="5.03" y1="2.77" x2="5.03" y2="2.68" class="dimension-guide" />
-    <text class="dimension" y="2.9" x="5.05">370±100mm</text>
+    <line x1="0" y1="3" x2="0.5" y2="3" class="dimension" />
+    <text class="dimension" y="2.9" x="0.31">500±100mm</text>
 
-    <line x1="3.92" y1="2.5" x2="4.29" y2="2.5" class="dimension" />
-    <line x1="4.29" y1="2.5" x2="4.29" y2="2.7" class="dimension-guide" />
-    <text class="dimension" y="2.4" x="4.26">370±100mm</text>
+    <line x1="3.92" y1="3" x2="4.18" y2="3" class="dimension" />
+    <text class="dimension" y="3.15" x="4.2">260±100mm</text>
+
+    <line x1="3.92" y1="3" x2="3.92" y2="2.7" class="dimension" />
+    <text class="dimension" y="2.86" x="4.25">300±100mm</text>
+
+    <line x1="3.92" y1="1.96" x2="4.66" y2="1.96" class="dimension" />
+    <text class="dimension" y="2.1" x="4.3">740±100mm</text>
+
+    <line x1="4.66" y1="1.48" x2="4.66" y2="1.96" class="dimension" />
+    <line x1="3.92" y1="1.48" x2="4.66" y2="1.48" class="dimension-guide" />
+    <text class="dimension" y="1.6" x="4.8" transform="rotate(-90, 4.8 1.6)">740±100mm</text>
 
     <line x1="0" y1="5.5" x2="5.4" y2="5.5" class="dimension" />
     <text class="dimension" y="5.6" x="2.7">5400±100mm</text>
