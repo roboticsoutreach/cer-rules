@@ -13,14 +13,14 @@
       }
 
       .arena-wall {
-          fill: #02A6F2;
-          stroke: #555;
+          fill: #ccc;
+          stroke: #333;
           stroke-width: .02;
       }
 
       .inner-wall {
-          fill: #bbb;
-          stroke: #555;
+          fill: #555;
+          stroke: #333;
           stroke-width: .02;
       }
 
@@ -43,7 +43,7 @@
       }
 
       #robot {
-          fill: green;
+          fill: #02A6F2;
           stroke: black;
           stroke-width: 0.02;
       }
@@ -83,26 +83,26 @@
          display: none;
       }*/
       line.dimension {
-        stroke: #333;
-        stroke-width: 0.005;
+        stroke: black;
+        stroke-width: 0.01;
         marker-start: url(#dimension-arrow-head-start);
         marker-end: url(#dimension-arrow-head-end);
       }
 
       text.dimension {
-        fill: #333;
+        fill: black;
         font-size: 0.11px;
         text-anchor: middle;
         dominant-baseline: central;
         font-family: monospace;
       }
       .dimension-arrow-head {
-        fill: #333;
+        fill: black;
       }
       .dimension-guide {
-        stroke: #777;
+        stroke: #666;
         stroke-width: 0.01;
-        stroke-dasharray: 0.0025 0.03;
+        stroke-dasharray: 0.005 0.03;
         stroke-linecap: round;
         fill: none;
       }
@@ -372,7 +372,7 @@
        y="3.4"
        x="1.2">Marker (with ID)</text>
 
-    <rect width="0.4" height="0.9" x="4.55" y="0.5" fill="#02A6F2" />
+    <rect width="0.4" height="0.9" x="4.55" y="0.5" fill="#ccc" />
     <line class="scoring-line"
             x1="4.75"
             y1="0.5"
@@ -393,7 +393,7 @@
        y="2.2"
        x="5.2">Inner wall</text>
 
-    <rect width="0.4" height="0.7" x="4.55" y="3.1" fill="#02A6F2" />
+    <rect width="0.4" height="0.7" x="4.55" y="3.1" fill="#ccc" />
     <line class="line-follow-guide-back"
             x1="4.75"
             y1="3.1"
