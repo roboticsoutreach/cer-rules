@@ -346,7 +346,7 @@
 
     <line x1="4.66" y1="1.48" x2="4.66" y2="1.96" class="dimension" />
     <line x1="3.92" y1="1.48" x2="4.66" y2="1.48" class="dimension-guide" />
-    <text class="dimension" y="1.6" x="4.8" transform="rotate(-90, 4.8 1.6)">740±100mm</text>
+    <text class="dimension" y="1.6" x="4.8" transform="rotate(-90, 4.8 1.6)">480±100mm</text>
 
     <line x1="0" y1="5.5" x2="5.4" y2="5.5" class="dimension" />
     <text class="dimension" y="5.6" x="2.7">5400±100mm</text>
