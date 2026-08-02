@@ -14,7 +14,7 @@
 
       .arena-wall {
           fill: #ccc;
-          stroke: #333;
+          stroke: black;
           stroke-width: .02;
       }
 
@@ -61,7 +61,7 @@
 
       .start-zone {
         stroke: #333;
-        stroke-width: 0.02;
+        stroke-width: 0.05;
         fill: #ffd;
       }
 
@@ -197,16 +197,17 @@
             y2="0.61" />
 
       <!-- Start zone -->
-      <rect width="1"
-            height="1"
-            x="2.7"
-            y="0"
+      <rect width="0.95"
+            height="0.95"
+            x="2.72"
+            y="0.02"
             class="start-zone"/>
 
       <!-- Line following guide -->
-      <polyline points="2.7,0.5 2.45,0.5 2.09,0.86 2.09,1.48 1.49,2.08 0.7,2.08 0.5,2.33 0.5,4.18 1.22,4.9 1.69,4.9" class="line-follow-guide-back" />
-      <polyline points="2.7,0.5 2.45,0.5 2.09,0.86 2.09,1.48 1.49,2.08 0.7,2.08 0.5,2.33 0.5,4.18 1.22,4.9 1.69,4.9" class="line-follow-guide" />
-      <g transform="translate(3.21 0.5)">
+      <polyline points="3.72,0.5, 2.7,0.5 2.45,0.5 2.09,0.86 2.09,1.48 1.49,2.08 0.7,2.08 0.5,2.33 0.5,4.18 1.22,4.9 1.69,4.9" class="line-follow-guide-back" />
+      <polyline points="3.72,0.5, 2.7,0.5 2.45,0.5 2.09,0.86 2.09,1.48 1.49,2.08 0.7,2.08 0.5,2.33 0.5,4.18 1.22,4.9 1.69,4.9" class="line-follow-guide" />
+
+      <g transform="translate(3.2 0.5)">
         <use xlink:href="#robot"/>
       </g>
 
