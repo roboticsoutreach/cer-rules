@@ -143,7 +143,7 @@
          transform="matrix(-1,0,0,1,1,1)"
          xlink:href="#dimension-arrow-head" />
     </marker>
-    <circle cx="0" cy="0" r="0.034" id="can" />
+    <circle cx="0" cy="0" r="0.032" id="can" />
     <line x1="-0.05" y1="0" x2="0.05" y2="0" id="marker"/>
     <rect width="0.5" height="0.3"
           x="-0.25" y="-0.15"
@@ -213,12 +213,12 @@
 
       <!-- cans -->
       <use xlink:href="#can" transform="translate(4.18 0.75)" class="can"/>
-      <use xlink:href="#can" transform="translate(0.61 1.65)" class="can"/>
-      <use xlink:href="#can" transform="translate(1.22 2.4)" class="can"/>
-      <use xlink:href="#can" transform="translate(0.74 3.44)" class="can"/>
-      <use xlink:href="#can" transform="translate(2.4 1.48)" class="can"/>
+      <use xlink:href="#can" transform="translate(1.22 1.68)" class="can"/>
+      <use xlink:href="#can" transform="translate(2.24 2.15)" class="can"/>
+      <use xlink:href="#can" transform="translate(0.25 2.78)" class="can"/>
+      <use xlink:href="#can" transform="translate(0.98 2.65)" class="can"/>
 
-      <!-- Inner wall -->
+    <!-- Inner wall -->
       <rect width="1.22"
             height="1.22"
             x="1.48"
@@ -300,22 +300,22 @@
     <line x1="4.18" y1="-0.06" x2="5.4" y2="-0.06" class="dimension" />
     <text class="dimension" y="-0.13" x="4.79">1220±100mm</text>
 
-    <line x1="4.78" y1="3.75" x2="5.4" y2="3.75" class="dimension" />
-    <text class="dimension" y="3.65" x="5.08">610±100mm</text>
+    <line x1="4.18" y1="3.72" x2="5.4" y2="3.72" class="dimension" />
+    <text class="dimension" y="3.80" x="4.79">1220±100mm</text>
 
-    <line x1="4.79" y1="4.18" x2="4.79" y2="3.75" class="dimension" />
-    <text class="dimension" y="4" x="4.45">430±100mm</text>
+    <line x1="4.18" y1="4.18" x2="4.18" y2="3.72" class="dimension" />
+    <text class="dimension" y="4" x="4.5">460±100mm</text>
 
-    <line x1="2.4" y1="1.48" x2="2.7" y2="1.48" class="dimension" />
-    <text class="dimension" y="1.37" x="2.5">300±20mm</text>
+    <line x1="2.24" y1="2.15" x2="2.24" y2="2.7" class="dimension" />
+    <text class="dimension" y="2.35" x="1.96">550±20mm</text>
 
-    <line x1="2.4" y1="1.48" x2="2.4" y2="2.7" class="dimension" />
-    <text class="dimension" y="2" x="2.1">600±20mm</text>
+    <line x1="2.24" y1="2.15" x2="2.7" y2="2.15" class="dimension" />
+    <text class="dimension" y="2" x="2.38">460±20mm</text>
 
-    <line x1="1.48" y1="2.4" x2="2.09" y2="2.4" class="dimension" />
-    <line x1="1.48" y1="2.4" x2="1.48" y2="2.7" class="dimension-guide" />
-    <line x1="2.09" y1="2.4" x2="2.09" y2="2.7" class="dimension-guide" />
-    <text class="dimension" y="2.32" x="1.78">610±10mm</text>
+    <line x1="3.31" y1="3" x2="3.92" y2="3" class="dimension" />
+    <line x1="3.31" y1="3" x2="3.31" y2="2.7" class="dimension-guide" />
+    <line x1="3.92" y1="3" x2="3.92" y2="2.7" class="dimension-guide" />
+    <text class="dimension" y="3.15" x="3.6">610±10mm</text>
 
     <line x1="0.4" y1="1.885" x2="0.4" y2="2.035" class="dimension" />
     <line x1="0" y1="1.885" x2="0.4" y2="1.885" class="dimension-guide" />
@@ -336,18 +336,12 @@
     <line x1="0" y1="3" x2="0.5" y2="3" class="dimension" />
     <text class="dimension" y="2.9" x="0.31">500±100mm</text>
 
-    <line x1="3.92" y1="3" x2="4.18" y2="3" class="dimension" />
-    <text class="dimension" y="3.15" x="4.2">260±100mm</text>
+    <line x1="5.4" y1="2.62" x2="5.15" y2="2.62" class="dimension" />
+    <text class="dimension" y="2.5" x="5.05">250±100mm</text>
 
-    <line x1="3.92" y1="3" x2="3.92" y2="2.7" class="dimension" />
-    <text class="dimension" y="2.86" x="4.25">300±100mm</text>
-
-    <line x1="3.92" y1="1.96" x2="4.66" y2="1.96" class="dimension" />
-    <text class="dimension" y="2.1" x="4.3">740±100mm</text>
-
-    <line x1="4.66" y1="1.48" x2="4.66" y2="1.96" class="dimension" />
-    <line x1="3.92" y1="1.48" x2="4.66" y2="1.48" class="dimension-guide" />
-    <text class="dimension" y="1.6" x="4.8" transform="rotate(-90, 4.8 1.6)">480±100mm</text>
+    <line x1="3.92" y1="2.9" x2="4.42" y2="2.9" class="dimension" />
+    <line x1="4.42" y1="2.75" x2="4.42" y2="2.9" class="dimension-guide" />
+    <text class="dimension" y="3.05" x="4.3">500±100mm</text>
 
     <line x1="0" y1="5.5" x2="5.4" y2="5.5" class="dimension" />
     <text class="dimension" y="5.6" x="2.7">5400±100mm</text>
