@@ -46,6 +46,10 @@ header {
 
             block-size: 5.5rem;
         }
+        h1 {
+            color: black;
+        }
+        background-color: white;
     }
 }
 
@@ -91,8 +95,10 @@ section {
     display: flex;
     flex-direction: column;
 
-    &:nth-of-type(2n) {
-        background-color: #f5f3f4;
+    @media screen {
+        &:nth-of-type(2n) {
+            background-color: #f5f3f4;
+        }
     }
 }
 
