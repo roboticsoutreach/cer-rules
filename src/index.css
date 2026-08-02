@@ -143,3 +143,8 @@ table {
         display: none;
     }
 }
+.only-print {
+    @media screen {
+        display: none;
+    }
+}
