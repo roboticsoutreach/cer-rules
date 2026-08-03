@@ -204,8 +204,8 @@
             class="start-zone"/>
 
       <!-- Line following guide -->
-      <polyline points="3.72,0.5, 2.7,0.5 2.45,0.5 2.09,0.86 2.09,1.48 1.48,2.09 0.86,2.09 0.5,2.45 0.5,4.18 1.22,4.9 1.69,4.9" class="line-follow-guide-back" />
-      <polyline points="3.72,0.5, 2.7,0.5 2.45,0.5 2.09,0.86 2.09,1.48 1.48,2.09 0.86,2.09 0.5,2.45 0.5,4.18 1.22,4.9 1.69,4.9" class="line-follow-guide" />
+      <polyline points="3.72,0.5, 2.45,0.5 2.1,0.85 2.1,1.5 1.5,2.1 0.85,2.1 0.5,2.45 0.5,4.18 1.22,4.9 1.69,4.9" class="line-follow-guide-back" />
+      <polyline points="3.72,0.5, 2.45,0.5 2.1,0.85 2.1,1.5 1.5,2.1 0.85,2.1 0.5,2.45 0.5,4.18 1.22,4.9 1.69,4.9" class="line-follow-guide" />
 
       <g transform="translate(3.2 0.5)">
         <use xlink:href="#robot"/>
