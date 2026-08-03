@@ -204,8 +204,8 @@
             class="start-zone"/>
 
       <!-- Line following guide -->
-      <polyline points="3.72,0.5, 2.7,0.5 2.45,0.5 2.09,0.86 2.09,1.48 1.49,2.08 0.7,2.08 0.5,2.33 0.5,4.18 1.22,4.9 1.69,4.9" class="line-follow-guide-back" />
-      <polyline points="3.72,0.5, 2.7,0.5 2.45,0.5 2.09,0.86 2.09,1.48 1.49,2.08 0.7,2.08 0.5,2.33 0.5,4.18 1.22,4.9 1.69,4.9" class="line-follow-guide" />
+      <polyline points="3.72,0.5, 2.7,0.5 2.45,0.5 2.09,0.86 2.09,1.48 1.48,2.09 0.86,2.09 0.5,2.45 0.5,4.18 1.22,4.9 1.69,4.9" class="line-follow-guide-back" />
+      <polyline points="3.72,0.5, 2.7,0.5 2.45,0.5 2.09,0.86 2.09,1.48 1.48,2.09 0.86,2.09 0.5,2.45 0.5,4.18 1.22,4.9 1.69,4.9" class="line-follow-guide" />
 
       <g transform="translate(3.2 0.5)">
         <use xlink:href="#robot"/>
@@ -324,7 +324,7 @@
 
     <line x1="0.25" y1="1.96" x2="0.25" y2="2.7" class="dimension" />
     <line x1="0" y1="1.96" x2="0.25" y2="1.96" class="dimension-guide" />
-    <text class="dimension" y="2.4" x="0.55">740±10mm</text>
+    <text class="dimension" y="2.25" x="0.53">740±10mm</text>
 
     <line x1="4.18" y1="0.85" x2="4.18" y2="0.75" class="dimension-guide" />
     <line x1="4.18" y1="0.85" x2="5.4" y2="0.85" class="dimension" />
