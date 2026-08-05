@@ -59,10 +59,10 @@
           stroke-width: 0.04;
       }
 
-      .start-zone {
+      .start-zone-border {
+        fill: none;
         stroke: #333;
         stroke-width: 0.05;
-        fill: #ffd;
       }
 
       .legend-label {
@@ -152,12 +152,18 @@
       <use xlink:href="#marker" transform="translate(0.075)" class="marker"/>
       <use xlink:href="#marker" transform="translate(-0.075)" class="marker"/>
     </g>
+
+    <g id="robot-start-zone" style="overflow: hidden">
+        <polyline points="0.975,0.625 0.975,0.975 0,0.975 0,0.625" class="start-zone-border" />
+        <polyline points="0,0.325 0,0 0.975,0 0.975,0.325" class="start-zone-border" />
+    </g>
+
     <g id="side-zone">
 
       <!-- passing lines -->
       <line class="scoring-line"
             x1="2.715"
-            y1="0"
+            y1="1"
             x2="2.715"
             y2="1.48" />
 
@@ -197,11 +203,7 @@
             y2="0.61" />
 
       <!-- Start zone -->
-      <rect width="0.95"
-            height="0.95"
-            x="2.72"
-            y="0.02"
-            class="start-zone"/>
+      <use xlink:href="#robot-start-zone" transform="translate(2.72, 0.02)" />
 
       <!-- Line following guide -->
       <polyline points="3.72,0.5, 2.45,0.5 2.1,0.85 2.1,1.5 1.5,2.1 0.85,2.1 0.5,2.45 0.5,4.18 1.22,4.9 1.69,4.9" class="line-follow-guide-back" />
@@ -351,11 +353,7 @@
 
   </g>
   <g id="legend" transform="translate(35 580) scale(75)">
-    <rect width="1"
-            height="1"
-            x="0"
-            y="0.5"
-            class="start-zone"/>
+    <use xlink:href="#robot-start-zone" transform="translate(0, 0.5)" />
     <use x="0.5" y="1" xlink:href="#robot"/>
     <text
        class="legend-label"
