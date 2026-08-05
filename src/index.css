@@ -85,6 +85,7 @@ section#logos {
             max-block-size: 8vb;
         }
     }
+    break-after: initial;
 }
 
 section {
@@ -94,6 +95,7 @@ section {
     background-color: white;
     display: flex;
     flex-direction: column;
+    break-after: page;
 
     @media screen {
         &:nth-of-type(2n) {
