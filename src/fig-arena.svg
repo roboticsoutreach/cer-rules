@@ -59,10 +59,9 @@
           stroke-width: 0.04;
       }
 
-      .start-zone {
-        stroke: #333;
+      .start-zone-border {
+        fill: none;
         stroke-width: 0.05;
-        fill: #ffd;
       }
 
       .legend-label {
@@ -152,12 +151,15 @@
       <use xlink:href="#marker" transform="translate(0.075)" class="marker"/>
       <use xlink:href="#marker" transform="translate(-0.075)" class="marker"/>
     </g>
+
+    <path d="M 0.975,0.625 L 0.975,0.975 L 0,0.975 L 0,0.625 M 0,0.325 L 0,0 L 0.975,0 L 0.975,0.325"         id="robot-start-zone" class="start-zone-border" />
+
     <g id="side-zone">
 
       <!-- passing lines -->
       <line class="scoring-line"
             x1="2.715"
-            y1="0"
+            y1="1.01"
             x2="2.715"
             y2="1.48" />
 
@@ -195,13 +197,6 @@
             y1="0.76"
             x2="4.79"
             y2="0.61" />
-
-      <!-- Start zone -->
-      <rect width="0.95"
-            height="0.95"
-            x="2.72"
-            y="0.02"
-            class="start-zone"/>
 
       <!-- Line following guide -->
       <polyline points="3.72,0.5, 2.45,0.5 2.1,0.85 2.1,1.5 1.5,2.1 0.85,2.1 0.5,2.45 0.5,4.18 1.22,4.9 1.69,4.9" class="line-follow-guide-back" />
@@ -256,6 +251,9 @@
     <!-- zones -->
     <use xlink:href="#side-zone"/>
     <use xlink:href="#side-zone" transform="rotate(180 2.7 2.7)"/>
+
+    <use xlink:href="#robot-start-zone" transform="translate(2.715, 0.015)" stroke="#f60"  />
+    <use xlink:href="#robot-start-zone" transform="translate(1.71, 4.41)" stroke="#0f0" />
 
     <!-- Marker labels -->
     <text class="marker-label" y="0.54" x="1.3">0</text>
@@ -351,16 +349,12 @@
 
   </g>
   <g id="legend" transform="translate(35 580) scale(75)">
-    <rect width="1"
-            height="1"
-            x="0"
-            y="0.5"
-            class="start-zone"/>
+    <use xlink:href="#robot-start-zone" transform="translate(0, 0.5)" stroke="#333"/>
     <use x="0.5" y="1" xlink:href="#robot"/>
     <text
        class="legend-label"
        y="1"
-       x="1.2">Robot starting area</text>
+       x="1.2">Robot (in starting area)</text>
 
     <use xlink:href="#can" transform="translate(0.5 2.2) scale(2)" class="can"/>
     <text
