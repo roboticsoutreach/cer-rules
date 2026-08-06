@@ -152,9 +152,7 @@
       <use xlink:href="#marker" transform="translate(-0.075)" class="marker"/>
     </g>
 
-    <path d="M 0.975,0.625 L 0.975,0.975 L 0,0.975 L 0,0.625
-             M 0,0.325 L 0,0 L 0.975,0 L 0.975,0.325"
-          id="robot-start-zone" class="start-zone-border" />
+    <path d="M 0.975,0.625 L 0.975,0.975 L 0,0.975 L 0,0.625 M 0,0.325 L 0,0 L 0.975,0 L 0.975,0.325"         id="robot-start-zone" class="start-zone-border" />
 
     <g id="side-zone">
 
