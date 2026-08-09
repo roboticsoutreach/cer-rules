@@ -1,5 +1,5 @@
 {
-    "name": "cer-rules",
+    "name": "rss-rules",
     "compatibility_date": "2025-08-03",
     "assets": {
         "directory": "./dist"
