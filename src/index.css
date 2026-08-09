@@ -54,7 +54,7 @@ header {
 }
 
 .hero-logo {
-    inline-size: min(16rem, 90vi);
+    inline-size: min(8rem, 90vi);
 }
 
 section#logos {
